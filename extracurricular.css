@@ -1,0 +1,34 @@
+.header{
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(254, 63, 79);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  background-color: rgb(254, 63, 79);
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.parallax {
+  background-image: url("tsa.jpg"), url(nh.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family:"Georgia";
+  background-color: rgb(163, 160, 150);
+}
